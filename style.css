@@ -91,3 +91,44 @@ footer {
 footer p {
   margin-bottom: 0.2rem;
 }
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .question {
+    margin-bottom: 1rem;
+  }
+
+  .question p {
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .question {
+    margin-bottom: 0.5rem;
+  }
+
+  .question p {
+    line-height: 1.4;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
